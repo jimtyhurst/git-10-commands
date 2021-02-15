@@ -1,7 +1,7 @@
 # Second Chapter
 
-This is the body of the boo.
+This is the body of the book.
 
 ## Subheading
 
-This is the first subheading od chapter 2
+This is the first subheading of chapter 2.
