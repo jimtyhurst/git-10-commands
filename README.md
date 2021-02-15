@@ -1,34 +1,40 @@
-# Writers Toolkit
+# BookBuilder
 
+`BookBuilder` is a simple script to generate publishable formats from Markdown files. As an author, you write your paper or book in
 This is a digital publishing starter kit.
 
 This was extracted from the toolchain for my first book Development (https://leanpub.com/development2019)
 
-## Setup
+## Set up on macOS
 
-Clone the repository. Then:
+Clone the repository. Then run:
 
-### Mac
+```
+setup.sh
+```
 
-Run `setup.sh` to install the required tools using `brew`
+to install the required tools using [Homebrew](https://brew.sh/).
 
-### Linux
+## Generating a book
 
-Run `setup_linux.sh` to install the required tools using `apt`
+1. Update [make_book.sh](./make_book.sh) with the name of the file that you want to build.
+2. Update `meta.yml` with your own book details.
+3. Write your book in the files named `part_xx.md`. Suggestion: Number the parts in the sequence in which they are to be compiled.
+4. Save a cover image as [cover/cover.png](./cover/cover.png)
+5. Run `./make_book.sh` to generate epub and pdf files.
 
-## Generating your book
+## Acknowledgments
 
-To get started update `make_book.sh` with the name of the file that you want to build.
+This project is based on the [Writers Toolkit](https://github.com/chriseyre2000/writers-toolkit) project.
 
-Update `meta.yml` with your own details.
+## License
 
-Write your book in the files named `part_xx.md`
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-Run `./make_book.sh` to generate the epub, mobi and pdf
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-./make_book.sh expects a cover image to be in the path `cover/cover.png` you need to replace the sample file with a larger real image.
+You should have received a copy of the [GNU General Public License](./LICENSE) along with this program. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
 
+---
 
-## Known Issues
-
-Amazon has [discontinued kindlegen](https://www.amazon.com/gp/feature.html/?docId=1000765211). Creating pdfs and epubs still works though.
+Copyright &copy; 2021 [Jim Tyhurst, Ph.D.](https://www.jimtyhurst.com)
