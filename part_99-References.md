@@ -43,6 +43,10 @@
     https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow  
     Excellent tutorial from Atlassian explaining how to use feature branches in your development process. The tutorial is useful whether or not you use Atlassian's [Bitbucket](https://bitbucket.org/) as your free, cloud-based repository.
 
+* Jeff Hale. 2019-02-28. [10 Git Commands You Should Know](https://towardsdatascience.com/10-git-commands-you-should-know-df54bea1595c): Plus tips to save time with Git.  
+    https://towardsdatascience.com/10-git-commands-you-should-know-df54bea1595c  
+    Provides an introduction to some of the Git commands that were not covered in the previous sections of my tutorial.
+
 * Scott Chacon and Ben Straub. 2014. [Pro Git](https://git-scm.com/book/en/v2). 2nd Edition.  
     https://git-scm.com/book/en/v2  
     This published paper book is also available for free online. Useful for reference or as an extended tutorial.
