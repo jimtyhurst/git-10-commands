@@ -15,5 +15,5 @@ git add upstream repository.git
 
 The original project repository is referenced as `upstream`. Your fork of that repository is referenced as `origin`.
 
-## Figure 1. Fork and clone a repository
+## Fork and clone a repository
 ![](./figure/git-figure-01-fork.png)
