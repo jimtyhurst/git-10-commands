@@ -4,6 +4,7 @@
 > * [Reference material](#reference-material)
 > * [Tutorials](#tutorials)
 > * [Graphical User Interfaces](#graphical-user-interfaces)
+> * [Good practices](#good-practices)
 > * [Free cloud-based repository hosts](#free-cloud-based-repository-hosts)
 
 ## Reference material {#reference-material}
@@ -16,8 +17,8 @@
     https://git-scm.com/book/en/v2  
     This published paper book is also available for free online. Useful for reference or as an extended tutorial.
 
-* Tobias Günther. July 2020. [17 Ways to Undo Mistakes with Git](https://www.git-tower.com/blog/surviving-with-git-videos).
-    https://www.git-tower.com/blog/surviving-with-git-videos
+* Tobias Günther. July 2020. [17 Ways to Undo Mistakes with Git](https://www.git-tower.com/blog/surviving-with-git-videos).  
+    https://www.git-tower.com/blog/surviving-with-git-videos  
     Excellent, easy to follow instructions for making things right when you mistakenly applied a command in the wrong place.
 
 ## Tutorials {#tutorials}
@@ -55,6 +56,12 @@
 * List of [GUI Clients](https://git-scm.com/downloads/guis).  
     https://git-scm.com/downloads/guis  
     A useful list if you prefer to work with a graphical user interface (GUI), rather than the command line.
+
+## Good practices
+
+* [Conventional Commits](https://www.conventionalcommits.org/): A specification for adding human and machine readable meaning to commit messages.  
+    https://www.conventionalcommits.org/  
+    This specification provides a standard for your commit messages, so that release documentation can be generated automatically.
 
 ## Free cloud-based repository hosts {#free-cloud-based-repository-hosts}
 
