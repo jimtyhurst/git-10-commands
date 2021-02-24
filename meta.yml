@@ -1,14 +1,14 @@
-title: MyBookName
+title: 10 Git Commands for Collaborating
 author:
-- Your Name here
-subtitle: Give yourself a subtitle
-abstract: Abstact text
+- Jim Tyhurst
+subtitle: Learn Just Enough Git and GitHub to Contribute to an Open Source Project
+abstract: This is a short tutorial to learn just enough Git and GitHub to contribute to an open source project with confidence. You only need to learn a few commands and a few workflows, in order to use Git to collaborate with others.
+date:
+- 2021-02-23
 keywords: 
-- Add
-- Some
-- Keywords
-- Here
-subject: Subject of book 
-description: Put a description here
-category: Category of book 
-
+- Git
+- GitHub
+- open source
+subject: Git 
+description: This is a short tutorial to learn just enough Git and GitHub to contribute to an open source project with confidence. You only need to learn a few commands and a few workflows, in order to use Git to collaborate with others.
+category: software development 
