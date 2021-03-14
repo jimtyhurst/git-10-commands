@@ -1,6 +1,6 @@
 \newpage
 # Configure your copy of the source code
-Most open source projects allow you to contribute to the project without being a member of their development team. A _committer_ is someone who has development privileges for their source repository. A committer can _commit_ changes, i.e. make changes to their source repository. A _contributor_ may _propose_ code changes. In this tutorial, we will assume you are a contributor, not a committer. After working through this scenario, you will see in a later section that the process is essentially the same for committers, although it is slightly simpler.
+Most open source projects allow you to contribute to the project without being a member of their development team. A _committer_ is someone who has development privileges for their source repository. A committer can _commit_ changes, i.e. make changes to their source repository. A _contributor_ may _propose_ code changes. In this tutorial, we will assume you are a contributor, not a committer. After working through this scenario, you will see in a [later section](#working-as-a-committer) that the process is essentially the same for committers, although it is slightly simpler.
 
 When you want to collaborate on an open source project for which you do not have commit privileges, you need to set up your own copy of the repository. You do this in two steps:
 

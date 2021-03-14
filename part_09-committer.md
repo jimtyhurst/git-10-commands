@@ -1,5 +1,5 @@
 \newpage
-# Working as a Committer
+# Working as a Committer {#working-as-a-committer}
 
 When you have permissions to work in the `Project Repository`, then your local workspace only references `origin` without a reference for `upstream`. The rest of the processes that we have considered are fundamentally the same.
 
