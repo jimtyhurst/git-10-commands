@@ -7,6 +7,9 @@ abstract: This is a short tutorial to learn just enough Git and GitHub
     workflows, in order to use Git to collaborate with others.
 date:
 - 2021-03-14
+toc: yes
+toc-depth: 1
+numbersections: yes
 keywords: 
 - Git
 - GitHub
