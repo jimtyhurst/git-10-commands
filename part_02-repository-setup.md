@@ -4,14 +4,14 @@ Most open source projects allow you to contribute to the project without being a
 
 When you want to collaborate on an open source project for which you do not have commit privileges, you need to set up your own copy of the repository. You do this in two steps:
 
-1. [fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the repository from the _project_ GitHub account to _your_ GitHub account.
-2. [clone](https://git-scm.com/docs/git-clone) your repository to your local machine.
+1. [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the repository from the _project_ GitHub account to _your_ GitHub account.
+2. [Clone](https://git-scm.com/docs/git-clone) your repository to your local machine.
 
 ## Fork
 
 Forking a repository makes a copy. This allows you to experiment with changes without affecting the original project.
 
-Forking happens in the cloud. You do it in a browser. Each of the Git repository cloud hosting services have their own way to do this:
+Forking happens in the cloud. You do it from a browser. Each of the Git repository cloud hosting services have their own way to do this:
 
 * GitHub `fork` [documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 * GitLab `fork` [documentation](https://docs.gitlab.com/ee/user/project/working_with_projects.html#fork-a-project)
@@ -26,9 +26,9 @@ To get the repository to your local machine, you `clone` your cloud repository. 
 ```bash
 # Fork is an operation that you already performed in a browser.
 # Then you clone your copy of the repository
-git clone git@github.com:your-name/your-project.git
+git clone git@github.com:your-github-name/some-project.git
 # Add a reference to the original source repository.
-git add upstream repository.git
+git add upstream git@github.com:project-github-name/some-project.git
 ```
 
 The original project repository is referenced as `upstream`. Your fork of that repository is referenced as `origin`.
