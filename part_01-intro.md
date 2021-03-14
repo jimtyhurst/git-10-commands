@@ -1,6 +1,14 @@
 \newpage
 # Introduction
 
+## You want to contribute to an open source project
+
+This tutorial provides a concise explanation for how you can contribute to an open source project when you do not have write-rights for the project's repository. Many projects have a small team of _committers_, which are the developers responsible for maintaining the code. However, you might fix defects or you might develop enhancements that you would like to contribute back to the project. Git and GitHub provide an efficient way for you to collaborate with the project team, even if you are not a member of that team.
+
+If you _are_ a member of the team, this tutorial still provides a very concise explanation of a few  workflows that will help you to manage your local and cloud repositories easily.
+
+This tutorial is written especially for those who have tried to use Git, but have become frustrated and disillusioned. I provide diagrams that I have found to be especially useful to understand the concepts and the environment configuration that are essential for using Git effectively.
+
 ## You need to work through this tutorial if ... {#motivation}
 
 * You frequently delete a local clone of a GitHub repository and clone the original again, because your local repository is hopelessly "broken" when you try to synchronize with your colleagues' changes.
@@ -22,7 +30,7 @@
 _Before_ working through the main part of this tutorial, you will:
 
 1. Install Git on a machine that you can use for this tutorial. Working through the exercises during the tutorial, rather than just reading the material, will improve your retention significantly.
-2. Have an account on [GitHub](https://github.com/), a free Git repository cloud service
+2. Have an account on [GitHub](https://github.com/), a free Git repository cloud service.
 
 ## Disclaimers {#disclaimers}
 
@@ -62,4 +70,4 @@ These commands are important to learn eventually, but they are _not_ essential f
 1. [revert](https://git-scm.com/docs/git-revert)
 1. [fetch](https://git-scm.com/docs/git-fetch)
 
-After the tutorial, you can browse the official [Reference Manual](https://git-scm.com/docs) for the details of these commands when/if you need them. Most of these commands are covered briefly in "[10 Git commands you should know](https://towardsdatascience.com/10-git-commands-you-should-know-df54bea1595c)".
+After the tutorial, you can browse the official [Reference Manual](https://git-scm.com/docs) for the details of these commands when/if you need them. Most of these commands are covered briefly in Jeff Hale's tutorial, "[10 Git commands you should know](https://towardsdatascience.com/10-git-commands-you-should-know-df54bea1595c)".
